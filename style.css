@@ -75,7 +75,7 @@ a{
 /* STYLE meal container */
 .meal-container {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     flex-wrap: wrap;
     row-gap: 50px;
     margin-top: 50px;
