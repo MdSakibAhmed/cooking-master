@@ -1,0 +1,102 @@
+body{
+    padding: 0;
+    margin:0;
+    background: #EDD263;
+
+
+}
+*{
+    margin:0;
+    padding:0;
+}
+img{
+    width:100%;
+    height: auto;
+}
+
+#main-area {
+    width:80%;
+    margin:0 auto;
+    height: 100vh;
+}
+.search-area{
+    width:80%;
+    margin:0 auto;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+.search-area input{
+    width:50%;
+    height: 40px;
+    border:none;
+    border-radius: 5px;
+    outline: 1px solid blue;
+    padding-left: 15px;
+
+}
+.search-area button{
+    height: 42px;
+    outline: none;
+    margin-left:-5px;
+    width:70px;
+    font-size:13px;
+    background: darkblue;
+    color:white;
+    cursor:pointer;
+}
+.meal-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    margin-top:50px;
+
+}
+.meal{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border:1px solid rgba(179, 168, 168, 0.575);
+    border-radius: 15px;
+
+
+
+}
+.meal h3{
+    background: white;
+    padding:10px 0px;
+    
+}
+#no-meal-found{
+    width:100%;
+    text-align:center;
+    display: none;
+}
+
+/* CSS style ingredients*/
+
+ 
+#ingridients img{
+    width:100%;
+    height: auto;
+
+}
+#ingridients h1,h3{
+    padding-left: 15px;
+    margin-top:20px;
+
+
+}
+#ingridients h3{
+    margin:10px 0;
+}
+#ingridients ul li{
+    padding-left: 0px;
+    font-size:18px;
+    margin-top:7px;
+}
+#ingridients ul{
+    margin-left:30px;
+}
