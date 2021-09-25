@@ -82,3 +82,19 @@ document.getElementById("search-button").addEventListener("click", function () {
         document.getElementById("no-meal-found").style.display = "block";
     })
 })
+
+ const countryListContainer = document.getElementById("countries")
+
+ fetch("https://restcountries.com/v3/all").then(res => res.json()).then(data => displayCountry(data))
+
+ const displayCountry = (data) => {
+     console.log(data);
+     data.forEach(country => {
+         const option = document.createElement("option")
+        //  option.setAttribute("value",country.alpha2Code)
+         option.innerText = country.name.common;
+        countryListContainer.appendChild(option);
+
+     })
+
+ }

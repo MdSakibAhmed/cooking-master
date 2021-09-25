@@ -24,6 +24,14 @@
         </ul>
     </nav>
 </header>
+<form>
+    <label for="country">Enter a country:</label>
+    <input type="search" maxlength="20" size="22" autocomplete="on" spellcheck name="country" id="country" list="countries" placeholder="Japan">
+
+    <datalist id="countries">  
+    </datalist> 
+    <input type="submit" value="Go">
+</form>
     <main id="main-area">
         <div class="search-area">
             <input id="search-field" type="text" placeholder="Search fo a Meal">
@@ -42,6 +50,7 @@
             <h1>No meals found. Please try another one.</h1>
         </div>
     </main>
+  
     <script src="script.js"></script>
 </body>
 
